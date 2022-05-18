@@ -73,7 +73,7 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### Oplossing:
   Ik heb de afbeelding als png gemaskert in Illustrator in de width en height van de blokjes die ik gemaakt heb met het grid. Met een "background-image" heb ik deze stukjes afbeelding in elke section gezet zodat het in zijn geheel leek alsof het een complete illustratie was.
 
-  <img src="readme-images/captain-america1.png" width="375px">
+  <img src="readme-images/poster.JPG" width="375px">
 
   ### Bevinding 5:
   Om de poster te maken heb ik allemaal sections gebruikt en met een display:flex proberen naast en onder elkaar te zetten. Deze sections sloten niet echt mooi aan elkaar waardoor mijn afbeelding allemaal gaten kreeg.
@@ -81,7 +81,7 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### Oplossing:
   Na een gesprek met Sanne heeft Sanne me over het gebruik van grids verteld, waardoor mijn afbeelding nu wel mooi aan elkaar zat.
 
-  <img src="readme-images/cursor.jpg" width="375px">
+  <img src="readme-images/line.jpg" width="375px">
 
 </details>
 

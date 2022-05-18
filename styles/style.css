@@ -75,7 +75,7 @@ button:not([disabled]) {
 }
 
 h1 {
-    font-family: "koulen";
+    font-family: "koulen", fantasy;
     font-size: 3em;
     font-weight: 800;
     text-transform: uppercase;
@@ -84,7 +84,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Eurostile";
+    font-family: "Eurostile", fantasy;
     font-size: 1em;
     font-weight: 500;
     text-transform: uppercase;
@@ -93,7 +93,7 @@ h2 {
 }
 
 p {
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     font-weight: 100;
 
     color: var(--tekst-p);
