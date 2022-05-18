@@ -79,7 +79,7 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### oplossing:
   In plaats van de poster heb ik er voor gekozen om er een slider van te maken.
 
-  <img src="readme-images/slider.JPG" width="375px">
+  <img src="readme-images/slider.jpg" width="375px">
   <img src="readme-images/slider-open.jpg" width="375px">
 
 
@@ -93,13 +93,21 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
 
   ### Bevinding 3:
-  ...
+  Als feedback kreeg ik over mijn informatiepagina dat de achtergrond te saai was, doordat ik een witte achtergrond gebruik net als bij de slider.
+
+  #### Oplossing:
+  Als oplossing heb ik bedacht om per jaartal die ik gebruik een achtergrond te maken in Illustrator die past bij de film waar het kostuum zich afspeelt.
+
+  <img src="readme-images/informatie.jpg" width="375px">
 
   ### Bevinding 4:
-  Als feedback kreeg ik dat het misschien beter zou zijn als ik een startpagina zou maken zodat je niet gelijk op de slider komt.
+  De startpagina vond ik nog te algemeen en mijn focus lag op het gebruiken van @keyframes en animatie. Dit was nog niet gebeurd.
 
   #### oplossing:
-  Ik heb een startpagina gemaakt met het schild van Captain America. Als er op het schild geklikt wordt komt de gebruiker bij de slider.
+  Als oplossing had ik bedacht om als startpagina een animatie te maken wat ook meer betrekking had tot Captain America. Ik heb er voor gekozen om een Amerikaanse vlag te gebruiken met een logo van Captain America. Het logo is geanimeerd zodat het van klein naar groot gaat en daarna verdwijnt. Om een link te maken naar de slider komt na het logo een Amerikaanse vlag waar op geklikt kan worden.
+
+  <img src="readme-images/start-small.jpg" width="375px">
+  <img src="readme-images/start-big.jpg" width="375px">
 
   ### Bevinding 5:
   Als feedback kreeg ik dat het misschien beter zou zijn als ik een startpagina zou maken zodat je niet gelijk op de slider komt.
@@ -109,27 +117,49 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
 
 
-
 ## Voortgang/Feedback 3
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Als feedback kreeg ik te horen dat mijn concept nog te algemeen was. Captain America kwam niet echt terug in
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Bij de startpagina heb ik de Amerikaanse vlag als eind-animatie weggehaald en het vervangen voor het schild van Captain America. Ik had hier best moeite mee omdat ik het schild niet goed over de Amerikaanse vlag kreeg nadat de eerste animatie gestopt was met het logo. Na wat hulp is het mij gelukt om met top:(calc) te werken en heb ik het mooi kunnen uitlijnen.
 
-
+  <img src="readme-images/shield-normal.jpg" width="375px">
+  <img src="readme-images/shield-broke.jpg" width="375px">
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Bij de informatiepagina had ik een extra tijdlijn staan. Sanne had aangegeven dat hij dit te standaard vond. Ik moest hier wat anders voor verzinnen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb de extra tijdlijn vervangen voor een schild dat van de ene kant naar de andere kant rolt. Ik heb hiervoor gekozen zodat de informatiepagina ook wat meer in de stijl van Captain America valt.
+
+  <img src="readme-images/roll-left.jpg" width="375px">
+  <img src="readme-images/roll-right.jpg" width="375px">
 
 
+   ### Bevinding 3:
+  De slider die ik gebruik als tijdlijn was nog te algemeen en sloeg niet echt op het concept van Captain America.
 
-  ### Bevinding 3:
-  ...
+  #### oplossing:
+  Captain America heeft een kenmerk en dat is zijn schild. Als oplossing om meer in het thema te komen heb ik in plaats van een rechte slider een ronde slider gemaakt met clip-path zodat het lijkt op het schild van Captain America.
+
+  <img src="readme-images/rond-slider.jpg" width="375px">
+
+
+   ### Bevinding 4:
+  Ik kreeg als feedback van Charlie dat de cursor nog een normaal pijltje had en dat ik dit ook nog kon veranderen in iets wat betrekking had tot Captain America.
+
+  #### oplossing:
+  Ik heb de cursor verandert naar het schild van Captain America.
+
+  <img src="readme-images/cursor.jpg" width="375px">
+
+   ### Bevinding 5:
+  Bij de informatiepagina had ik een extra tijdlijn staan. Sanne had aangegeven dat hij dit te standaard vond. Ik moest hier wat anders voor verzinnen.
+
+  #### oplossing:
+  Ik heb de extra tijdlijn vervangen voor een schild dat van de ene kant naar de andere kant rolt. Ik heb hiervoor gekozen zodat de informatiepagina ook wat meer in de stijl van Captain America valt.
 
 
 ## Reflectie
@@ -141,11 +171,28 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
 
   ### Dit ging goed/Heb ik geleerd:
-  Korte omschrijving met plaatje(s)
 
+  Alles wat betrekking heeft tot code en uiteindelijk werkt en er redelijk goed uit ziet ben ik tevreden mee. Coderen is een vak wat niet mijn ligging heeft en waar ik ook zeer gefrustreerd van raak.
+
+  Het schrijven van de basiscode gaat mij naar mijn idee redelijk goed af (maar het is altijd nog afwachten wat Sanne er van vindt :)).
+
+  Ik heb geleerd om geduld te hebben met betrekking tot code. Als je soms wat beter nadenkt is het niet zo moeilijk als je in eerste instatie dacht. Daarnaast heb ik geleerd om @keyframes en animaties op verschillende manieren in te zetten. Net als de background-images.
+
+  Als tweede heb ik geleerd om nette code te schrijven en zo min mogelijk code te schrijven zodat het overzichtelijk blijft. Ik denk hierbij aan elementen die op 1 regel neergezet kunnen worden of dat niet alle elementen een class nodig hebben om deze elementen aan te roepen.
+
+  Als derde heb ik geleerd om grids te gebruiken, wat overigens veel makkelijker is dan sections over elkaar heen zetten met position:absolute.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+
+  Ik heb geprobeerd om met Javascript te werken om mijn buttons te animeren en om de poster te laten flippen maar dit is mij niet gelukt.
+
+  Daarnaast vond ik sommige stukjes code die betrekking hadden tot @keyframes en animatie ook moeilijk. Ik heb een research gedaan op het internet maar hier kon ik geen bruikbare code vinden, ik had echt iemand anders ze hulp nodig. Mijn illustraties omzetten naar een SVG is me ook niet gelukt en is me tot nu toe nog steeds een raadsel hoe dit werkt :)
+
+  Voor de basiscode vind ik dat het me wel redelijk goed af is gegaan. Ik merk wel aan mijzelf dat ik geen standaard nette code schrijf en ik mijn code ook echt moet controleren op hoe het staat. Dit vind ik af en toe lastig om bij te houden.
+
+  Het idee dat ik had bedacht zag er op papier leuker uit dan dat het uiteindelijk gecodeerd was. Ik vond het moeilijk om te coderen in een bepaalde "stijl". Met deze stijl bedoel ik ook dat ik weinig inspiratie kon vinden over een leuke lay-out wat betrekking had tot Captain America. De reden hiervan zou ook kunnen zijn omdat ik te weinig nagedacht heb over wat ik precies wil voordat ik begon met coderen. Dit zorgde er ook uiteindelijk voor dat ik op het laatste moment nog dingen wilden wijzigen en anders wilden coderen. Ik heb ook meerdere keren feedback gevraagd aan 1 persoon.
+
+  <b>Tip naar mijzelf - begin eerder, neem meer tijd om een concept uit te bedenken en vraag feedback aan meerdere personen!</b>
 
 </details>
 
