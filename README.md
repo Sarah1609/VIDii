@@ -30,38 +30,41 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
 ## Voortgang/Feedback 1
 
-  <summary>Bevindingen + oplossingen</summary>
-
   ### Bevinding 1:
   Tijdens mijn eerste feedbackgesprek met Charlie vond Charlie dat de kleuren niet goed overeen kwamen met het idee van Captain America.
 
   #### oplossing:
   Ik heb de kleuren gewijzigd van orange/geel naar groen in Illustrator. Nadat ik deze wijziging had gemaakt heb ik het hele kleurenpalet wat ik in eerste instantie wilden gebruiken veranderd naar grijs/zwart/rood en groen.
 
-<img src="readme-images/captain-america-geel.png">
-<img src="readme-images/captain-america-groen.png">
+<img src="readme-images/captain-america-geel.png" height="375px">
+<img src="readme-images/captain-america-groen.png" height="375px">
 
   ### Bevinding 2:
   Mijn idee was om een stripboekpagina na te bootsen omdat Captain America ooit ontstaan is via stripboeken. Om dit te creeren heb ik geprobeerd om een grid te creeren met los staande "sections" die samen een geheel vormen. In Adobe Illustrator heb ik een afbeelding van Captain America getekend. Dit wil ik gebruiken als "voorpagina" van de stripboekpagina. Als de gebruiker over een section hovert moet de section draaien en kan de gebruiker informatie lezen.
 
-  #### oplossing:
+  #### Oplossing:
   Het is mij niet gelukt om deze sections te laten flippen zodat de gebruiker informatie kan lezen. Hoe ik dit heb opgelost is om een hover te gebruiken met een link in de hover zodat de gebruiker naar een andere pagina wordt geleidt om informatie te lezen.
 
+  <img src="readme-images/hover-poster.jpg" height="375px">
+
   ### Bevinding 3:
+  Ik wilde het Illustrator bestand als SVG op de achtergrond zetten van mijn "stripboekpagina". Het is mij niet gelukt om mijn illustratie om te zetten als SVG.
 
+  #### Oplossing:
+  Ik heb de afbeelding als png gemaskert in Illustrator in de width en height van van de blokjes die ik gemaakt heb met het grid. Met een "background-image" heb ik deze stukjes afbeelding in elke section gezet zodat het in zijn geheel leek alsof het een complete illustratie was.
 
-  #### oplossing:
+  <img src="readme-images/poster.JPG" width="375px">
 
   ### Bevinding 4:
 
 
-  #### oplossing:
+  #### Oplossing:
 
 
   ### Bevinding 5:
 
 
-  #### oplossing:
+  #### Oplossing:
 
 
 
