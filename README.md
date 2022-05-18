@@ -1,3 +1,4 @@
+<!--
 # Procesverslag
 Markdown is een simpele manier om HTML te schrijven.
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
@@ -8,6 +9,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
+-->
 
 
 ## Sarah's proces
@@ -53,14 +55,13 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### oplossing:
   Ik heb de kleuren gewijzigd van orange/geel naar groen in Illustrator. Nadat ik deze wijziging had gemaakt heb ik het hele kleurenpalet wat ik in eerste instantie wilden gebruiken veranderd naar grijs/zwart/rood en groen.
 
-  <img src="readme-images/captain-america-geel.png" width="375px" alt="eerste versie/schets">
+  <img src="../readme-images/captain-america-geel.png" width="375px" alt="eerste versie/schets">
 
-  <img src="readme-images/captain-america-groen.png" width="375px" alt="eerste versie/schets">
-
+  <img src="../readme-images/captain-america-groen.png" width="375px" alt="eerste versie/schets">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Mijn eerste idee was om een stripboekpagina na te bootsen omdat Captain America ooit ontstaan is via stripboeken.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
