@@ -1,19 +1,628 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-html, body {
-  height:100%;
-  margin:0;
+/********************
+*********************
+Custom properties
+*********************
+********************/
+
+
+
+:root {
+    /* algemene achtergrondkleuren */
+
+    --achtergrond-kleur: #222;
+    --slider-hover-kleur: #333;
+
+    /* buttons */
+
+    --button-background-color: darkred;
+    --button-backgroundcolor-hover: #C00000;
+    --button-radius: darkred;
+    --button-focus: #D00000;
+
+    /* tekst */
+
+    --hoofdtekst-h1: #990000;
+    --subhoofdtekst-h2: #cc0000;
+    --tekst-p: #FFF;
+
+    /* informatieblokken */
+
+    --informatieblok-achtergrondkleur: #333;
+    --informatieblok-border-kleur: .3em #990000 solid;
+}
+
+
+
+/********************
+*********************
+Algemene code voor het hele document
+*********************
+********************/
+
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 2em;
+
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    cursor: url('../images/cursor-shield.png'), auto;
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+    cursor: pointer;
 }
 
-/* jouw CSS vanaf hier */
+@font-face {
+    font-family: "koulen";
+    src: url('../fonts/koulen-regular-webfont.woff2') format('woff2'),
+        url('../fonts/koulen-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 h1 {
-  color:crimson;
+    font-family: "koulen";
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    color: var(--hoofdtekst-h1);
+}
+
+h2 {
+    font-family: "Eurostile";
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    color: var(--subhoofdtekst-h2);
+}
+
+p {
+    font-family: "OpenSans";
+    font-weight: 100;
+
+    color: var(--tekst-p);
+
+    padding: 0em 2em 0em 2em;
+    text-align: left;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/********************
+*********************
+Hier start de CSS van de start.html
+*********************
+********************/
+
+
+
+main {
+    height: 85vh;
+}
+
+.start1 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/Amerikaanse-Vlag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 45%;
+}
+
+.start2 {
+    animation-name: captain;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-image: url(../images/captain-logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes captain {
+    0% {
+        transform: scale(0%);
+    }
+
+    50% {
+        transform: scale(100%);
+    }
+
+    100% {
+        transform: scale(0%);
+
+    }
+}
+
+.start3 {
+    animation-name: information-block;
+    animation-duration: 10s;
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+
+    width: 88%;
+    height: 88%;
+
+    position: absolute;
+    top: calc(50% - 22em);
+    left: calc(50% - 39em);
+
+    opacity: 0;
+
+    background-image: url(../images/start-shield.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.start3:hover {
+    background-image: url(../images/broke-shield.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 88%;
+    height: 88%;
+
+    position: absolute;
+    top: calc(50% - 22em);
+    left: calc(50% - 39em);
+}
+
+@keyframes information-block {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.start3 a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/********************
+*********************
+Hier start de CSS van de slider pagina
+*********************
+********************/
+
+
+
+/* Algemene code voor de slider */
+
+.main-slider {
+    clip-path: circle(50%);
+    height: 85vh;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+
+    background-color: var(--achtergrond-kleur);
+    background-image: url(../images/shield.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    height: 100%;
+}
+
+li {
+    display: grid;
+    place-items: flex-end;
+    justify-content: center;
+    flex-grow: 1;
+
+    flex-basis: 0%;
+    transition: 1s;
+}
+
+
+/* CODE VOOR DE IMAGE VAN DE SLIDER */
+
+li:first-of-type {
+    background-image: url("../images/forground-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(2) {
+    background-image: url("../images/forground-image2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(3) {
+    background-image: url("../images/forground-image3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(4) {
+    background-image: url("../images/forground-image4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(5) {
+    background-image: url("../images/forground-image5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(6) {
+    background-image: url("../images/forground-image6.png");
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+
+
+/* DIT IS DE CODE VOOR DE HOVER / SLIDER PAGINA */
+
+li:first-of-type:hover {
+    flex-basis: 80%;
+
+    background-image: url("../images/background-hover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(2):hover {
+    flex-basis: 80%;
+
+    background-image: url("../images/background-hover2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(3):hover {
+    flex-basis: 80%;
+
+    background-image: url("../images/background-hover3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(4):hover {
+    flex-basis: 80%;
+
+    background-image: url("../images/background-hover4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(5):hover {
+    flex-basis: 80%;
+
+    background-image: url("../images/background-hover5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+li:nth-of-type(6):hover {
+    flex-basis: 80%;
+
+    background-image: url("../images/background-hover6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--achtergrond-kleur);
+}
+
+
+
+/* CODE VOOR DE BUTTON HOVER / NIET HOVER */
+
+.hoverButton {
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+
+    padding: .5em;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+
+    appearance: none;
+    border: none;
+    border-radius: .5em;
+    box-shadow: 0 .5em 0 #000;
+
+    font: inherit;
+    color: white;
+
+    transition: .1s;
+
+    top: -50%;
+    transform: translateY(50%);
+}
+
+li:hover .hoverButton {
+    opacity: 1;
+}
+
+.hoverButton:hover {
+    cursor: pointer;
+    background-color: var(--button-backgroundcolor-hover);
+}
+
+.hoverButton:focus {
+    border: 2px solid var(--button-focus);
+}
+
+.hoverButton:focus-visible {
+    transform: translatey(-.75em);
+    outline: none;
+    box-shadow: 0 .75em 0 #333;
+}
+
+.hoverButton:active {
+    transform: translatey(0);
+    box-shadow: 0 0 0 #333;
+}
+
+
+
+/********************
+*********************
+Hier start de CSS van de information pagina
+*********************
+********************/
+
+
+
+/* algemene code voor alle informatiepagina's */
+
+.info-color {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-right: 2em;
+
+    background-color: var(--informatieblok-achtergrondkleur);
+}
+
+.information {
+    padding: 3em;
+    height: 70vh;
+
+    background-color: var(--achtergrond-kleur);
+    background-image: none;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.information:hover {
+    background-image: none;
+}
+
+
+
+/* CODE VOOR ALLE BUTTONS OP INFORMATIEPAGINA'S */
+
+.back {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 3em 3em 0em 3em;
+
+    background: var(--achtergrond-kleur);
+}
+
+.back a {
+    padding: .5em;
+    z-index: 100;
+
+    border: .1em darkred solid;
+    width: 8.5em;
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+
+    border-radius: 3em;
+
+    font-family: "Eurostile";
+    text-align: center;
+
+    color: white;
+}
+
+.back a:hover {
+    background-color: var(--button-backgroundcolor-hover);
+    color: var(--button-color);
+
+    padding: .5em;
+    margin-bottom: 1em;
+    transform: translatey(-.5em);
+    position: relative;
+    z-index: 1;
+
+    border: none;
+    border-radius: .5em;
+    box-shadow: 0 .5em 0 #333;
+
+    font-family: "Eurostile";
+    color: white;
+
+    transition: .1s;
+}
+
+.back:focus {
+    border: 2px solid var(--button-focus);
+}
+
+.info-navigation {
+    padding-bottom: 2em;
+    padding-left: 3em;
+
+    background: var(--achtergrond-kleur);
+}
+
+.animate-shield {
+    animation-name: move-right;
+    animation-timing-function: ease-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    background-image: url(../images/shield.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    aspect-ratio: 1/1;
+    width: 5vw;
+}
+
+@keyframes move-right {
+
+    0% {
+        transform: translateX(0vw) rotate(0turn);
+    }
+
+    50% {
+        transform: translateX(80vw) rotate(5turn);
+    }
+
+    100% {
+        transform: translateX(0vw) rotate(0turn);
+    }
+}
+
+
+
+/* Hier start de CSS van de pagina "1942.html" */
+
+.information .img-1942 {
+    background-image: url(../images/first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: var(--informatieblok-border-kleur);
+}
+
+
+/* Hier start de CSS van de pagina "2012.html" */
+
+.information .img-2012 {
+    background-image: url(../images/second.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: var(--informatieblok-border-kleur);
+
+}
+
+
+
+/* Hier start de CSS van de pagina "2012-2.html" */
+
+.information .img-2012-2 {
+    background-image: url(../images/thirth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: var(--informatieblok-border-kleur);
+}
+
+
+
+/* Hier start de CSS van de pagina "2014.html" */
+
+.information .img-2014 {
+    background-image: url(../images/four.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: var(--informatieblok-border-kleur);
+}
+
+
+
+/* Hier start de CSS van de pagina "2018.html" */
+
+.information .img-2018 {
+    background-image: url(../images/fifth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: var(--informatieblok-border-kleur);
+}
+
+
+
+/* Hier start de CSS van de pagina "2019.html" */
+
+.information .img-2019 {
+    background-image: url(../images/sixth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: var(--informatieblok-border-kleur);
 }
