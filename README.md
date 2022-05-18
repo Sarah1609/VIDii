@@ -1,17 +1,3 @@
-<!--
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
--->
-
-
 ## Sarah's proces
 
 ### Ontwerper:
@@ -45,9 +31,8 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen</summary>
 
-  <summary>
+  <summary>Mijn bevindingen + wijzigingen
 
   ### Bevinding 1:
   Tijdens mijn eerste feedbackgesprek met Charlie vond Charlie dat de kleuren niet goed overeen kwamen met het idee van Captain America.
@@ -55,10 +40,9 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### oplossing:
   Ik heb de kleuren gewijzigd van orange/geel naar groen in Illustrator. Nadat ik deze wijziging had gemaakt heb ik het hele kleurenpalet wat ik in eerste instantie wilden gebruiken veranderd naar grijs/zwart/rood en groen.
 
-  <img src="readme-images/captain-america-geel.png" width="375px" alt="eerste versie/schets">
+  <img src="../readme-images/captain-america-geel.png" width="375px" alt="eerste versie/schets">
 
-  <img src="readme-images/captain-america-groen.png" width="375px" alt="eerste versie/schets">
-
+  <img src="../readme-images/captain-america-groen.png" width="375px" alt="eerste versie/schets">
 
   ### Bevinding 2:
   Mijn idee was om een stripboekpagina na te bootsen omdat Captain America ooit ontstaan is via stripboeken. Om dit te creeren heb ik geprobeerd om een grid te creeren met los staande "sections" die samen een geheel vormen. In Adobe Illustrator heb ik een afbeelding van Captain America getekend. Dit wil ik gebruiken als "voorpagina" van de stripboekpagina. Als de gebruiker over een section hovert moet de section draaien en kan de gebruiker informatie lezen.
@@ -66,15 +50,23 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### oplossing:
   Het is mij niet gelukt om deze sections te laten flippen zodat de gebruiker informatie kan lezen. Hoe ik dit heb opgelost is om een hover te gebruiken met een link in de hover zodat de gebruiker naar een andere pagina wordt geleidt om informatie te lezen.
 
-
   ### Bevinding 3:
-  ...
+  Mijn idee was om een stripboekpagina na te bootsen omdat Captain America ooit ontstaan is via stripboeken. Om dit te creeren heb ik geprobeerd om een grid te creeren met los staande "sections" die samen een geheel vormen. In Adobe Illustrator heb ik een afbeelding van Captain America getekend. Dit wil ik gebruiken als "voorpagina" van de stripboekpagina. Als de gebruiker over een section hovert moet de section draaien en kan de gebruiker informatie lezen.
 
-### Bevinding 4:
-  ...
+  #### oplossing:
+  Het is mij niet gelukt om deze sections te laten flippen zodat de gebruiker informatie kan lezen. Hoe ik dit heb opgelost is om een hover te gebruiken met een link in de hover zodat de gebruiker naar een andere pagina wordt geleidt om informatie te lezen.
 
-### Bevinding 5:
-  ...
+  ### Bevinding 4:
+  Mijn idee was om een stripboekpagina na te bootsen omdat Captain America ooit ontstaan is via stripboeken. Om dit te creeren heb ik geprobeerd om een grid te creeren met los staande "sections" die samen een geheel vormen. In Adobe Illustrator heb ik een afbeelding van Captain America getekend. Dit wil ik gebruiken als "voorpagina" van de stripboekpagina. Als de gebruiker over een section hovert moet de section draaien en kan de gebruiker informatie lezen.
+
+  #### oplossing:
+  Het is mij niet gelukt om deze sections te laten flippen zodat de gebruiker informatie kan lezen. Hoe ik dit heb opgelost is om een hover te gebruiken met een link in de hover zodat de gebruiker naar een andere pagina wordt geleidt om informatie te lezen.
+
+  ### Bevinding 5:
+  Mijn idee was om een stripboekpagina na te bootsen omdat Captain America ooit ontstaan is via stripboeken. Om dit te creeren heb ik geprobeerd om een grid te creeren met los staande "sections" die samen een geheel vormen. In Adobe Illustrator heb ik een afbeelding van Captain America getekend. Dit wil ik gebruiken als "voorpagina" van de stripboekpagina. Als de gebruiker over een section hovert moet de section draaien en kan de gebruiker informatie lezen.
+
+  #### oplossing:
+  Het is mij niet gelukt om deze sections te laten flippen zodat de gebruiker informatie kan lezen. Hoe ik dit heb opgelost is om een hover te gebruiken met een link in de hover zodat de gebruiker naar een andere pagina wordt geleidt om informatie te lezen.
 
 </summary>
 </details>
