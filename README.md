@@ -45,7 +45,9 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen
+  <summary>Mijn bevindingen + wijzigingen</summary>
+
+  <summary>
 
   ### Bevinding 1:
   Tijdens mijn eerste feedbackgesprek met Charlie vond Charlie dat de kleuren niet goed overeen kwamen met het idee van Captain America.
@@ -53,9 +55,9 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### oplossing:
   Ik heb de kleuren gewijzigd van orange/geel naar groen in Illustrator. Nadat ik deze wijziging had gemaakt heb ik het hele kleurenpalet wat ik in eerste instantie wilden gebruiken veranderd naar grijs/zwart/rood en groen.
 
-  <img src="../readme-images/captain-america-geel.png" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/captain-america-geel.png" width="375px" alt="eerste versie/schets">
 
-  <img src="../readme-images/captain-america-groen.png" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/captain-america-groen.png" width="375px" alt="eerste versie/schets">
 
 
   ### Bevinding 2:
