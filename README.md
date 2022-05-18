@@ -18,8 +18,6 @@ Sarah de Moes
 #### Je startniveau:
 Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar ik heb nog veel moeite met sommige onderdelen zoals bijvoorbeeld Javascript of het gebruik van @keyframes / animatie.
 
-Flexbox en de standaard codering van HTML / CSS kan ik redelijk goed mee overweg.
-
 
 # Je plan
 
@@ -32,10 +30,12 @@ Flexbox en de standaard codering van HTML / CSS kan ik redelijk goed mee overweg
 
   ### Je ambitie:
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+
+  - Werken met @keyframes
+  - Werken met animaties
+  - Illustrator bestanden combineren met HTML & CSS
+  - Zo veel mogelijk CSS en zo weinig mogelijk Javascript gebruiken indien dat mogelijk is.
+  - Sliders gebruiken
 
 </details>
 
@@ -45,13 +45,17 @@ Flexbox en de standaard codering van HTML / CSS kan ik redelijk goed mee overweg
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen </summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Tijdens mijn eerste feedbackgesprek met Charlie vond Charlie dat de kleuren niet goed overeen kwamen met het idee van Captain America.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb de kleuren gewijzigd van orange/geel naar groen in Illustrator. Nadat ik deze wijziging had gemaakt heb ik het hele kleurenpalet wat ik in eerste instantie wilden gebruiken veranderd naar grijs/zwart/rood en groen.
+
+  <img src="readme-images/captain-america-geel.png" width="375px" alt="eerste versie/schets">
+
+  <img src="readme-images/captain-america-groen.png" width="375px" alt="eerste versie/schets">
 
 
 
@@ -64,6 +68,12 @@ Flexbox en de standaard codering van HTML / CSS kan ik redelijk goed mee overweg
 
 
   ### Bevinding 3:
+  ...
+
+### Bevinding 4:
+  ...
+
+### Bevinding 5:
   ...
 
 </details>
