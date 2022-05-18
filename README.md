@@ -45,7 +45,7 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen </summary>
+  <summary>Mijn bevindingen + wijzigingen
 
   ### Bevinding 1:
   Tijdens mijn eerste feedbackgesprek met Charlie vond Charlie dat de kleuren niet goed overeen kwamen met het idee van Captain America.
@@ -74,6 +74,7 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 ### Bevinding 5:
   ...
 
+</summary>
 </details>
 
 
@@ -130,6 +131,8 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
   ### Bevinding 3:
   ...
+
+  </summary>
 
 </details>
 
