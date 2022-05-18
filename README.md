@@ -30,8 +30,6 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
 ## Voortgang/Feedback 1
 
-<details>
-
   <summary>Bevindingen + oplossingen</summary>
 
   ### Bevinding 1:
@@ -64,10 +62,6 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
 
   #### oplossing:
-
-
-</details>
-
 
 
 
