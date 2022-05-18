@@ -10,10 +10,16 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+
+  <summary>Wat is mijn plan en wat zijn mijn ambities?</summary>
+
+  ## Wat is mijn plan?
+  Mijn karakter die ik heb uitgekozen is Captain America. Naar een klein onderzoek over dit karakter heb ik gevonden dat Captain America in de "Avenger" reeks een paar keer van kostuum verandert. De veranderingen van kostuums draagt ook een verhaaltje met zich mee.
+
+  Mijn plan is om deze kostuums te showen en het verhaal van elk kostuum te vertellen. Het lijkt mij leuk om het in een stripboek stijl te maken, omdat Captain America is ontstaan in 1941 met het eerste stripboek.
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/sketch.jpg" width="375px">
 
 
   ### Je ambitie:
@@ -24,11 +30,17 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   - Illustrator bestanden combineren met HTML & CSS
   - Zo veel mogelijk CSS en zo weinig mogelijk Javascript gebruiken indien dat mogelijk is.
   - Sliders gebruiken
+  - Nette code schrijven
+  - Veel hovers gebruiken (want dat is cool :))
 
 </details>
 
 
 ## Voortgang/Feedback 1
+
+<details>
+
+<summary>Wat is mijn voortgang na feedbacksessie 1?</summary>
 
   ### Bevinding 1:
   Mijn eerste idee was om een bestaande afbeelding te gebruiken en die te stijlen met CSS zodat ik er een poster van kon maken met hovers. Deze afbeeldingen kwamen niet echt mooi naar voren met de hovers.
@@ -69,9 +81,13 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
   #### Oplossing:
 
-
+</details>
 
 ## Voortgang/Feedback 2
+
+<details>
+
+<summary>Wat is mijn voortgang na feedbacksessie 2?</summary>
 
   ### Bevinding 1:
   De poster beviel mij niet echt. Het nam te veel ruimte in beslag waardoor de navigatie en het idee van de poster een beetje weg viel.
@@ -115,9 +131,13 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   #### oplossing:
   Ik heb een startpagina gemaakt met het schild van Captain America. Als er op het schild geklikt wordt komt de gebruiker bij de slider.
 
-
+</details>
 
 ## Voortgang/Feedback 3
+
+<details>
+
+  <summary>Wat is mijn voortgang na feedbacksessie 3?</summary>
 
   ### Bevinding 1:
   Als feedback kreeg ik te horen dat mijn concept nog te algemeen was. Captain America kwam niet echt terug in
@@ -156,11 +176,12 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   <img src="readme-images/cursor.jpg" width="375px">
 
    ### Bevinding 5:
-  Bij de informatiepagina had ik een extra tijdlijn staan. Sanne had aangegeven dat hij dit te standaard vond. Ik moest hier wat anders voor verzinnen.
+  Doordat ik de slider had verandert naar een ronde cirkel klopte mijn afbeeldingen niet meer als ik aan het hoveren was.
 
   #### oplossing:
-  Ik heb de extra tijdlijn vervangen voor een schild dat van de ene kant naar de andere kant rolt. Ik heb hiervoor gekozen zodat de informatiepagina ook wat meer in de stijl van Captain America valt.
+  Ik heb de afbeeldingen aangepast in Illustrator en een andere achtergrond gebruikt zodat het meer past in het plaatje en niet te opzichtelijk is zodat je niet meer kan lezen wat er staat.
 
+</details>
 
 ## Reflectie
 
