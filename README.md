@@ -31,6 +31,14 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 ## Voortgang/Feedback 1
 
   ### Bevinding 1:
+  Mijn eerste idee was om een bestaande afbeelding te gebruiken en die te stijlen met CSS zodat ik er een poster van kon maken met hovers. Deze afbeeldingen kwamen niet echt mooi naar voren met de hovers.
+
+  #### Oplossing:
+  Uiteindelijk heb ik er voor gekozen om zelf een afbeelding te maken en daar mee te werken. In Adobe Illustrator heb ik een Captain America gemaakt.
+
+<img src="readme-images/illustrator.jpg" height="375px">
+
+  ### Bevinding 2:
   Tijdens mijn eerste feedbackgesprek met Charlie vond Charlie dat de kleuren niet goed overeen kwamen met het idee van Captain America.
 
   #### oplossing:
@@ -39,7 +47,7 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 <img src="readme-images/captain-america-geel.png" height="375px">
 <img src="readme-images/captain-america-groen.png" height="375px">
 
-  ### Bevinding 2:
+  ### Bevinding 3:
   Mijn idee was om een stripboekpagina na te bootsen omdat Captain America ooit ontstaan is via stripboeken. Om dit te creeren heb ik geprobeerd om een grid te creeren met los staande "sections" die samen een geheel vormen. In Adobe Illustrator heb ik een afbeelding van Captain America getekend. Dit wil ik gebruiken als "voorpagina" van de stripboekpagina. Als de gebruiker over een section hovert moet de section draaien en kan de gebruiker informatie lezen.
 
   #### Oplossing:
@@ -47,18 +55,13 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
   <img src="readme-images/hover-poster.jpg" height="375px">
 
-  ### Bevinding 3:
+  ### Bevinding 4:
   Ik wilde het Illustrator bestand als SVG op de achtergrond zetten van mijn "stripboekpagina". Het is mij niet gelukt om mijn illustratie om te zetten als SVG.
 
   #### Oplossing:
   Ik heb de afbeelding als png gemaskert in Illustrator in de width en height van van de blokjes die ik gemaakt heb met het grid. Met een "background-image" heb ik deze stukjes afbeelding in elke section gezet zodat het in zijn geheel leek alsof het een complete illustratie was.
 
   <img src="readme-images/poster.JPG" width="375px">
-
-  ### Bevinding 4:
-
-
-  #### Oplossing:
 
 
   ### Bevinding 5:
@@ -70,37 +73,45 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
 ## Voortgang/Feedback 2
 
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De poster beviel mij niet echt. Het nam te veel ruimte in beslag waardoor de navigatie en het idee van de poster een beetje weg viel.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  In plaats van de poster heb ik er voor gekozen om er een slider van te maken.
 
+  <img src="readme-images/slider.JPG" width="375px">
+  <img src="readme-images/slider-open.jpg" width="375px">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Als feedback kreeg ik dat het misschien beter zou zijn als ik een startpagina zou maken zodat je niet gelijk op de slider komt.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb een startpagina gemaakt met het schild van Captain America. Als er op het schild geklikt wordt komt de gebruiker bij de slider.
 
+<img src="readme-images/broke-shield.png" width="375px">
 
 
   ### Bevinding 3:
   ...
 
-</details>
+  ### Bevinding 4:
+  Als feedback kreeg ik dat het misschien beter zou zijn als ik een startpagina zou maken zodat je niet gelijk op de slider komt.
+
+  #### oplossing:
+  Ik heb een startpagina gemaakt met het schild van Captain America. Als er op het schild geklikt wordt komt de gebruiker bij de slider.
+
+  ### Bevinding 5:
+  Als feedback kreeg ik dat het misschien beter zou zijn als ik een startpagina zou maken zodat je niet gelijk op de slider komt.
+
+  #### oplossing:
+  Ik heb een startpagina gemaakt met het schild van Captain America. Als er op het schild geklikt wordt komt de gebruiker bij de slider.
+
 
 
 
 ## Voortgang/Feedback 3
 
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
@@ -119,12 +130,6 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
 
   ### Bevinding 3:
   ...
-
-  </summary>
-
-</details>
-
-
 
 
 ## Reflectie
@@ -133,23 +138,16 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
-
-
-
 
 
 ## Bronnenlijst
