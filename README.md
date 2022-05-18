@@ -71,15 +71,17 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   Ik wilde het Illustrator bestand als SVG op de achtergrond zetten van mijn "stripboekpagina". Het is mij niet gelukt om mijn illustratie om te zetten als SVG.
 
   #### Oplossing:
-  Ik heb de afbeelding als png gemaskert in Illustrator in de width en height van van de blokjes die ik gemaakt heb met het grid. Met een "background-image" heb ik deze stukjes afbeelding in elke section gezet zodat het in zijn geheel leek alsof het een complete illustratie was.
+  Ik heb de afbeelding als png gemaskert in Illustrator in de width en height van de blokjes die ik gemaakt heb met het grid. Met een "background-image" heb ik deze stukjes afbeelding in elke section gezet zodat het in zijn geheel leek alsof het een complete illustratie was.
 
-  <img src="readme-images/poster.JPG" width="375px">
-
+  <img src="readme-images/captain-america1.png" width="375px">
 
   ### Bevinding 5:
-
+  Om de poster te maken heb ik allemaal sections gebruikt en met een display:flex proberen naast en onder elkaar te zetten. Deze sections sloten niet echt mooi aan elkaar waardoor mijn afbeelding allemaal gaten kreeg.
 
   #### Oplossing:
+  Na een gesprek met Sanne heeft Sanne me over het gebruik van grids verteld, waardoor mijn afbeelding nu wel mooi aan elkaar zat.
+
+  <img src="readme-images/cursor.jpg" width="375px">
 
 </details>
 
@@ -126,10 +128,13 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   <img src="readme-images/start-big.jpg" width="375px">
 
   ### Bevinding 5:
-  Als feedback kreeg ik dat het misschien beter zou zijn als ik een startpagina zou maken zodat je niet gelijk op de slider komt.
+  Als feedback kreeg ik dat de informatiepagina nog geen button had waardoor de gebruiker terug kon komen naar de slider.
 
   #### oplossing:
-  Ik heb een startpagina gemaakt met het schild van Captain America. Als er op het schild geklikt wordt komt de gebruiker bij de slider.
+  Om dit op te lossen heb ik bovenaan een button gemaakt in dezelfde stijl als alle andere buttons om terug te komen op de slider.
+
+  <img src="readme-images/back-button.jpg" width="375px">
+
 
 </details>
 
@@ -176,10 +181,16 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   <img src="readme-images/cursor.jpg" width="375px">
 
    ### Bevinding 5:
-  Doordat ik de slider had verandert naar een ronde cirkel klopte mijn afbeeldingen niet meer als ik aan het hoveren was.
+   De afbeeldingen die ik in de verticale slider gebruikten passen niet meer in me nieuwe cirkel slider.
 
   #### oplossing:
-  Ik heb de afbeeldingen aangepast in Illustrator en een andere achtergrond gebruikt zodat het meer past in het plaatje en niet te opzichtelijk is zodat je niet meer kan lezen wat er staat.
+  In Illustrator heb ik nieuwe achtergrond afbeeldingen gemaakt die meer passen in de nieuwe slider. Tijdens het maken van de slider kwam ik er ook achter hoe ik het probleem kon oplossen van mijn tekening die niet helemaal recht uitgelijnd in de cirkel staat. De afbeelding stond een beetje scheef waardoor het niet leek alsof het een rechte afbeelding was.
+
+  <b>De oplossing was de tekengebieden tegen elkaar aan zetten in plaats van ruimte er tussen laten :)</b>
+
+  <img src="readme-images/teken-1.jpg" width="375px">
+  <img src="readme-images/teken-2.jpg" width="375px">
+
 
 </details>
 
@@ -204,6 +215,8 @@ Mijn startniveau zit tussen rood-blauw in. De basis van coderen begrijp ik, maar
   Als derde heb ik geleerd om grids te gebruiken, wat overigens veel makkelijker is dan sections over elkaar heen zetten met position:absolute.
 
   ### Dit was lastig/Is niet gelukt:
+
+  Ten eerste ben ik stom geweest en heb ik niet al mijn veranderingen opgeslagen, waardoor ik in mijn proces niet met foto's kan laten zien wat ik verandert heb. Hopelijk kan ik dit in het gesprek wel goed verwoorden :)
 
   Ik heb geprobeerd om met Javascript te werken om mijn buttons te animeren en om de poster te laten flippen maar dit is mij niet gelukt.
 
